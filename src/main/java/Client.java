@@ -3,10 +3,8 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Client {
-
     private final String SERVER_ADDR = "localhost";
     private final int SERVER_PORT = 8180;
-
     private Socket socket;
     private DataOutputStream out;
     private DataInputStream in;

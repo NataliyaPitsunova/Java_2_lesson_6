@@ -9,7 +9,6 @@ public class Server {
     private Socket socket = null; // содали объект socket
     private DataInputStream in;
     private DataOutputStream out;
-
     public Server() {
         try (ServerSocket serverSocket = new ServerSocket(8180)) {
             System.out.println("Сервер запущен, ожидается подключение клиента...");
